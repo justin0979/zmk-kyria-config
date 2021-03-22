@@ -111,9 +111,9 @@
 // |       |HOME | GUI |      |      |      |     |     |                  |     |     | '|'  |  _    |  ,    |  .   |   /   |      |
 //                     |      |      |      |     |     |                  |     |     |      |       |       |
 			bindings = <
-	&bt BT_CLR &trans &trans &trans &trans &trans                                        &trans &trans &trans &trans &trans &trans
-	&trans     &trans &trans &trans &trans &trans                                        &trans &trans &trans &trans &trans &trans
-	&trans     &trans &trans &trans &trans &trans    &trans &trans       &trans  &trans  &trans &trans &trans &trans &trans &trans
+	&trans   &trans &trans &trans &trans &trans                                        &trans &trans &trans &trans &trans &trans
+	&trans   &trans &trans &trans &trans &trans                                        &trans &trans &trans &trans &trans &trans
+	&trans   &trans &trans &trans &trans &trans    &trans &trans       &trans  &trans  &trans &trans &trans &trans &trans &trans
 	                                 &trans &trans &trans &trans       &kp BSPC       &trans  &trans  &trans &trans &trans
 			>;
 
