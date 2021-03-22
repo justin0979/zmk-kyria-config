@@ -76,14 +76,14 @@
 
 		left_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------
-// |  ESC  |  Q  |  W  |  E   |  R   |  T   |                                          |  Y   |  U    |  I    |  (   |   )   |   \  |
-// |  TAB  |  A  |  S  |  D   |  F   |  G   |                                          |  H   |  J    |  K    |  L   |   ;   |   '  |
-// | SHIFT |  Z  |  X  |  C   |  V   |  B   | L SHIFT | L SHIFT |  | L SHIFT | L SHIFT |  N   |  M    |  ,    |  .   |   /   | CTRL |
-//                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
+// |  ESC  |  Q  |  W  |  E   |LC(W) |LC(B) |                                          |  Y   | LS(F) |  I    |  (   |   )   |   \  |
+// |  TAB  |  A  |  S  |  D   | CAT  |  G   |                                          |  H   |  CSN  |  =    |  L   |   ;   |   '  |
+// | SHIFT |  Z  |  X  |  C   |LC(C) | CSV  |   |    |                 |     |         |  N   |  M    |  ,    |  .   |   /   | CTRL |
+//                     |      |      |      |   |    |                 |     |         |      |       |       |
 			bindings = <
 	&kp ESC &kp Q &kp W &kp E &kp LC(W)     &kp LC(B)                                        &kp Y &kp LC(F)      &kp I     &kp LPAR   &kp RPAR  &kp BSLH
 	&kp TAB &kp A &kp S &kp D &kp LC(LA(T)) &kp G                                            &kp H &kp LC(LS(N))  &kp EQUAL &kp L   &kp SEMI &kp SQT
-	&trans  &kp Z &kp X &kp C &kp LC(C)     &kp LS(LC(V))  &kp N2  &kp N1    &trans   &trans &kp N &kp M          &trans &trans &trans &kp RCTRL
+	&trans  &kp Z &kp X &kp C &kp LC(C)     &kp LS(LC(V))  &trans  &trans    &trans   &trans &kp N &kp M          &trans &trans &trans &kp RCTRL
 	                              &trans &trans &trans     &trans  &trans    &kp BSPC &trans &mo BT &trans &trans
 			>;
 
@@ -100,7 +100,7 @@
 	&trans   &kp N1     &kp N2    &kp N3   &kp N4  &kp N5                                      &kp N6   &kp N7     &kp N8    &kp N9   &kp N0   &trans
 	&trans   &kp GRAVE  &kp TILDE &sk LALT &kp TAB &kp ESC                                     &kp LEFT_ARROW &kp DOWN  &kp UP &kp RIGHT_ARROW &kp RBKT &trans
 	&trans   &kp HOME   &kp LGUI  &trans   &trans  &kp B  &trans  &trans       &trans  &trans  &kp PIPE &kp UNDER  &kp COMMA &kp DOT  &kp FSLH &trans
-	                                 &trans &trans &trans &trans  &kp BSPC       &trans  &trans  &trans &trans &trans
+	                                 &trans &trans &trans &trans  &kp BSPC     &trans  &trans  &trans &trans &trans
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
