@@ -20,7 +20,7 @@
 #define LSIDE   3
 #define RMOD    4
 #define BT      5
-#define MC      6
+#define MCR     6
 
 / {
 	keymap {
@@ -30,7 +30,7 @@
 // ---------------------------------------------------------------------------------------------------------------------------------
 // |  ESC  |  Q  |  D  |  R   |  W   |  B   |                                          |  J   |  F    |  U    |  P   |   ;   |   -  |
 // |  SQT  |  A  |  S  |  H   |  T   |  G   |                                          |  Y   |  N    |  E    |  O   |   I   | ENTER|
-// |  MC   |  Z  |  X  |  M   |  C   |  V   |  LSIDE   | LCTRL |    |   RALT   |  RET    |  K   |  L    |  ,    |  .   |   /   | CTRL |
+// |  MCR  |  Z  |  X  |  M   |  C   |  V   |  LSIDE   | LCTRL |    |   RALT   |  RET    |  K   |  L    |  ,    |  .   |   /   | CTRL |
 //                     | GUI  | LCTRL|LSIDE |  SHIFT  | BSPC  |    | SQT |  SPACE  | RSIDE  | RMOD  | R-ALT |
 			bindings = <
 	&kp ESC   &kp Q &kp D &kp R &kp W &kp B                                             &kp J &kp F  &kp U     &kp P   &kp SEMI &kp MINUS
