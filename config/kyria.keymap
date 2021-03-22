@@ -19,8 +19,9 @@
 #define RSIDE   2
 #define LSIDE   3
 #define RMOD    4
-#define BT      5
-#define MCR     6
+#define LMOD    5
+#define BT      6
+#define MCR     7
 
 / {
 	keymap {
@@ -36,7 +37,7 @@
 	&kp ESC   &kp Q &kp D &kp R &kp W &kp B                                             &kp J &kp F  &kp U     &kp P   &kp SEMI &kp MINUS
 	&kp SQT   &kp A &kp S &kp H &kp T &kp G                                             &kp Y &kp N  &kp E     &kp O   &kp I    &kp ENTER
 	&tog MCR  &kp Z &kp X &kp M &kp C &kp V  &mo LSIDE  &kp LCTRL   &kp RALT  &kp RET   &kp K &kp L  &kp COMMA &kp DOT &kp FSLH &to QWER
-                &kp LGUI &kp N9 &mo LSIDE  &kp LSHFT  &kp BSPC    &kp SQT   &kp SPACE &mo RSIDE &mo RMOD &kp RALT
+                &kp LGUI &tog LMOD &mo LSIDE  &kp LSHFT  &kp BSPC    &kp SQT   &kp SPACE &mo RSIDE &mo RMOD &kp RALT
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -101,6 +102,22 @@
 	&trans   &kp GRAVE  &kp TILDE &sk LALT &kp TAB &kp ESC                                     &kp LEFT_ARROW &kp DOWN  &kp UP &kp RIGHT_ARROW &kp RBKT &trans
 	&trans   &kp HOME   &kp LGUI  &trans   &trans  &kp B  &trans  &trans       &trans  &trans  &kp PIPE &kp UNDER  &kp COMMA &kp DOT  &kp FSLH &trans
 	                                 &trans &trans &trans &trans  &kp BSPC     &trans  &trans  &trans &trans &trans
+			>;
+
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+		};
+
+		left_mod_layer {
+// ---------------------------------------------------------------------------------------------------------------------------------
+// |       |     |     |      |      |      |                                          |      |       |       |      |       |      |
+// |       |     |     |      |      |      |                                          |      |       |       |      |       |      |
+// |       |     |     |      |      |      |     |     |                  |     |     |      |       |       |      |       |      |
+//                     |      |      |      |     |     |                  |     |     |      |       |       |
+			bindings = <
+	&trans   &trans &trans &trans &trans &trans                                        &trans &kp KP_N7 &kp KP_N8 &kp KP_N9 &trans &trans
+	&trans   &trans &trans &trans &trans &trans                                        &trans &kp KP_N4 &kp KP_N5 &kp KP_N6 &trans &trans
+	&trans   &trans &trans &trans &trans &trans    &trans &trans       &trans  &trans  &trans &kp KP_N1 &kp KP_N2 &kp KP_N3 &trans &trans
+	                                 &trans &trans &trans &trans       &kp BSPC       &trans  &trans  &kp KP_N0 &trans &trans
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
