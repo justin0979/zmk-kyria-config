@@ -30,13 +30,13 @@
 
 		default_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------
-// |  ESC  |  Q  |  D  |  R   |  W   |  B   |                                       |  J   |  F    |  U    |  P   |   ;   |   -  |
-// |  SQT  |  A  |  S  |  H   |  T   |  G   |                                       |  Y   |  N    |  E    |  O   |   I   | ENTER|
+// |  ESC  |  Q  |  D  |  R   |  W   |  B   |                                       |  J   |  F    |  U    |  P   |   ;   |   ~  |
+// |  SQT  |  A  |  S  |  H   |  T   |  G   |                                       |  Y   |  N    |  E    |  O   |   I   | MINUS|
 // |  CTRL |  Z  |  X  |  M   |  C   |  V   |  LSIDE  | ACC   |    | RET  |  SHIFT  |  K   |  L    |  ,    |  .   |   /   | CTRL |
 //                     | GUI  | LMOD |LSIDE |  SHIFT  | BSPC  |    | SQT  |  SPACE  | RSIDE  | RMOD  | R-ALT |
 			bindings = <
-	&kp ESC   &kp Q &kp D &kp R &kp W &kp B                                                &kp J &kp F  &kp U     &kp P   &kp SEMI &kp MINUS
-	&kp SQT   &kp A &kp S &kp H &kp T &kp G                                                &kp Y &kp N  &kp E     &kp O   &kp I    &kp ENTER
+	&kp ESC   &kp Q &kp D &kp R &kp W &kp B                                                &kp J &kp F  &kp U     &kp P   &kp SEMI &kp TILDE
+	&kp SQT   &kp A &kp S &kp H &kp T &kp G                                                &kp Y &kp N  &kp E     &kp O   &kp I    &kp MINUS
 	&kp LCTRL &kp Z &kp X &kp M &kp C &kp V     &mo LSIDE  &tog ACC     &kp RET  &kp RSHFT &kp K &kp L  &kp COMMA &kp DOT &kp FSLH &kp RALT
                 &kp LGUI &tog LMOD &mo LSIDE  &kp LSHFT  &kp BSPC     &kp SQT  &kp SPACE &mo RSIDE &mo RMOD &kp RALT
 			>;
@@ -85,8 +85,8 @@
 			bindings = <
 	&kp ESC &kp Q &kp D &kp R &kp LC(W)     &kp LC(B)                                        &kp J &kp LC(F)      &trans    &kp LPAR   &kp RPAR  &kp BSLH
 	&kp TAB &kp A &kp S &kp H &kp LC(LA(T)) &kp G                                            &kp Y &kp LC(LS(N))  &kp EQUAL &kp L      &kp SEMI &kp SQT
-	&trans  &kp Z &kp X &kp M &kp LC(C)     &kp LC(V)  &trans  &trans    &trans   &trans &kp K &kp L          &trans &trans &trans &kp RCTRL
-	                              &trans &trans &trans     &trans  &trans    &kp BSPC &trans &mo BT &trans &trans
+	&trans  &kp Z &kp X &kp M &kp LC(C)     &kp LC(V)  &trans  &trans        &trans   &trans &kp K &kp L          &trans &trans &trans &kp RCTRL
+	                              &trans &trans &trans &trans  &trans        &kp BSPC &trans &mo BT &trans &trans
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
