@@ -80,12 +80,12 @@
 // ---------------------------------------------------------------------------------------------------------------------------------
 // |  ESC  |  Q  |  W  |  E   |LC(W) |LC(B) |                                          |  Y   | LS(F) |  I    |  (   |   )   |   \  |
 // |  TAB  |  A  |  S  |  D   | CAT  |  G   |                                          |  H   |  CSN  |  =    |  L   |   ;   |   '  |
-// | SHIFT |  Z  |  X  |  C   |LC(C) | CSV  |   |    |                 |     |         |  N   |  M    |  ,    |  .   |   /   | CTRL |
+// | SHIFT |  Z  |  X  |  C   |LC(C) |LC(V) |   |    |                 |     |         |  N   |  M    |  ,    |  .   |   /   | CTRL |
 //                     |      |      |      |   |    |                 |     |         |      |       |       |
 			bindings = <
 	&kp ESC &kp Q &kp D &kp R &kp LC(W)     &kp LC(B)                                        &kp J &kp LC(F)      &trans    &kp LPAR   &kp RPAR  &kp BSLH
 	&kp TAB &kp A &kp S &kp H &kp LC(LA(T)) &kp G                                            &kp Y &kp LC(LS(N))  &kp EQUAL &kp L      &kp SEMI &kp SQT
-	&trans  &kp Z &kp X &kp M &kp LC(C)     &kp LS(LC(V))  &trans  &trans    &trans   &trans &kp K &kp L          &trans &trans &trans &kp RCTRL
+	&trans  &kp Z &kp X &kp M &kp LC(C)     &kp LC(V)  &trans  &trans    &trans   &trans &kp K &kp L          &trans &trans &trans &kp RCTRL
 	                              &trans &trans &trans     &trans  &trans    &kp BSPC &trans &mo BT &trans &trans
 			>;
 
@@ -99,10 +99,10 @@
 // |       |HOME | GUI |      |      |      |     |     |                  |     |     | '|'  |  _    |  ,    |  .   |   /   |      |
 //                     |      |      |      |     |     |                  |     |     |      |       |       |
 			bindings = <
-	&trans   &kp N1    &kp N2    &kp N3   &kp N4  &kp N5                                      &kp N6   &kp N7     &kp N8    &kp N9   &kp N0   &trans
-	&trans   &kp GRAVE &kp TILDE &sk LALT &kp TAB &kp ESC                                     &kp LEFT_ARROW &kp DOWN  &kp UP &kp RIGHT_ARROW &kp RBKT &trans
-	&trans   &trans    &kp LGUI  &trans   &trans  &kp B   &kp HOME  &kp END      &trans  &trans  &kp PIPE &kp UNDER  &kp COMMA &kp DOT  &kp FSLH &trans
-	                                 &trans &trans &trans &trans    &kp BSPC     &trans  &trans  &trans &trans &trans
+	&trans   &kp N1    &kp N2    &kp N3   &kp N4  &kp N5                                         &kp N6         &kp N7     &kp N8    &kp N9          &kp N0   &trans
+	&trans   &kp GRAVE &kp TILDE &sk LALT &kp TAB &kp ESC                                        &kp LEFT_ARROW &kp DOWN   &kp UP    &kp RIGHT_ARROW &kp RBKT &trans
+	&trans   &trans    &kp LGUI  &trans   &trans  &trans  &kp HOME  &kp END      &trans  &trans  &kp PIPE       &kp UNDER  &kp COMMA &kp DOT         &kp FSLH &trans
+	                                 &trans &trans &trans &trans    &kp BSPC     &trans  &trans  &trans         &trans     &trans
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
