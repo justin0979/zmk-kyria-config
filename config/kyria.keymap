@@ -32,12 +32,12 @@
 // |  ESC  |  Q  |  D  |  R   |  W   |  B   |                                       |  J   |  F    |  U    |  P   |   ;   |   -  |
 // |  SQT  |  A  |  S  |  H   |  T   |  G   |                                       |  Y   |  N    |  E    |  O   |   I   | ENTER|
 // |  MC   |  Z  |  X  |  M   |  C   |  V   |  LSIDE  | LCTRL |    | RALT |  RET    |  K   |  L    |  ,    |  .   |   /   | CTRL |
-//                     | GUI  | LCTRL|LSIDE |  SHIFT  | BSPC  |    | SQT  |  SPACE  | RSIDE  | RMOD  | R-ALT |
+//                     | GUI  | LMOD |LSIDE |  SHIFT  | BSPC  |    | SQT  |  SPACE  | RSIDE  | RMOD  | R-ALT |
 			bindings = <
-	&kp ESC   &kp Q &kp D &kp R &kp W &kp B                                             &kp J &kp F  &kp U     &kp P   &kp SEMI &kp MINUS
-	&kp SQT   &kp A &kp S &kp H &kp T &kp G                                             &kp Y &kp N  &kp E     &kp O   &kp I    &kp ENTER
-	&tog MCR  &kp Z &kp X &kp M &kp C &kp V  &mo LSIDE  &kp LCTRL   &kp RALT  &kp RET   &kp K &kp L  &kp COMMA &kp DOT &kp FSLH &to QWER
-                &kp LGUI &tog LMOD &mo LSIDE  &kp LSHFT  &kp BSPC    &kp SQT   &kp SPACE &mo RSIDE &mo RMOD &kp RALT
+	&kp ESC   &kp Q &kp D &kp R &kp W &kp B                                                &kp J &kp F  &kp U     &kp P   &kp SEMI &kp MINUS
+	&kp SQT   &kp A &kp S &kp H &kp T &kp G                                                &kp Y &kp N  &kp E     &kp O   &kp I    &kp ENTER
+	&tog MCR  &kp Z &kp X &kp M &kp C &kp V     &mo LSIDE  &kp LCTRL   &kp RALT  &kp RET   &kp K &kp L  &kp COMMA &kp DOT &kp FSLH &to QWER
+                &kp LGUI &tog LMOD &kp LSHFT  &mo LSIDE  &kp BSPC    &kp SQT   &kp SPACE &mo RSIDE &mo RMOD &kp RALT
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
