@@ -84,14 +84,14 @@
 
 		left_mo_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------
-// |  ESC  |     |     |      |LC(W) |LC(B) |                                          |       | LS(F) |       |  (   |   )   |   \  |
+// |  ESC  |     |     |      |LC(W) |LC(B) |                                          |  CS6  | LS(F) |       |  (   |   )   |   \  |
 // |  TAB  |     |     |      | CAT  |      |                                          | LC(Y) |  CSN  |  =    |      |  CSI  |   '  |
 // | SHIFT |     |     |      |LC(C) |LC(V) |   |    |                 |     |         |       |       |  ,    |  .   |   /   | CTRL |
 //                     |      |      |      |   |    |                 | BSPC|         |       |       |       |
 			bindings = <
-	&kp ESC &trans &trans &trans &kp LC(W)     &kp LC(B)                                        &trans    &kp LC(F)      &trans    &kp LPAR   &kp RPAR      &kp BSLH
-	&kp TAB &trans &trans &trans &kp LC(LA(T)) &trans                                           &kp LC(Y) &kp LC(LS(N))  &kp EQUAL &trans     &kp LC(LS(I)) &kp SQT
-	&trans  &trans &trans &trans &kp LC(C)     &kp LC(V)  &trans  &trans        &trans   &trans &trans    &trans         &trans    &trans     &trans        &kp RCTRL
+	&kp ESC &trans &trans &trans &kp LC(W)     &kp LC(B)                                        &kp LC(LS(N6)) &kp LC(F)      &trans    &kp LPAR   &kp RPAR      &kp BSLH
+	&kp TAB &trans &trans &trans &kp LC(LA(T)) &trans                                           &kp LC(Y)      &kp LC(LS(N))  &kp EQUAL &trans     &kp LC(LS(I)) &kp SQT
+	&trans  &trans &trans &trans &kp LC(C)     &kp LC(V)  &trans  &trans        &trans   &trans &trans         &trans         &trans    &trans     &trans        &kp RCTRL
 	                              &trans &trans &trans &trans  &trans        &kp BSPC &trans &trans &trans &trans
 			>;
 
