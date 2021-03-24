@@ -149,13 +149,13 @@
 		minecraft_tog_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------
 // |       |  1  |  2  |  3   |  4   |  5   |                                          |      |       |       |      |       |      |
-// |       |  F  |  A  |  W   |  D   |  E   |                                          |      |       |       |      |       |      |
-// |       |     |     |  S   |  Q   |      | LCTRL | F5  |                |     |     |      |       |       |      |       |      |
+// |       |  Q  |  A  |  W   |  D   |  E   |                                          |      |       |       |      |       |      |
+// |       |     |     |  S   |  F   |      | LCTRL | F5  |                |     |     |      |       |       |      |       |      |
 //                     |      |      |SPACE | LSHFT | ESC |                |     |     |      |       |       |
 			bindings = <
 	&trans   &kp N1 &kp N2 &kp N3 &kp N4 &kp N5                                         &trans &trans &trans &trans &trans &trans
-	&trans   &kp F  &kp A  &kp W  &kp D  &kp E                                          &trans &trans &trans &trans &trans &trans
-	&to DEF  &trans &trans &kp S  &kp Q  &trans &kp LCTRL &kp F5        &trans  &trans  &trans &trans &trans &trans &trans &trans
+	&trans   &kp Q  &kp A  &kp W  &kp D  &kp E                                          &trans &trans &trans &trans &trans &trans
+	&to DEF  &trans &trans &kp S  &kp F  &trans &kp LCTRL &kp F5        &trans  &trans  &trans &trans &trans &trans &trans &trans
 	                   &trans &trans &kp SPACE  &kp LSHFT &kp ESC       &trans  &trans  &trans &trans &trans
 			>;
 
