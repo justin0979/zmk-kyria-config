@@ -37,7 +37,7 @@
 		default_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------
 // |  ESC  |  Q  |  D  |  R   |  W   |  B   |                                       |  J   |  F    |  U    |  P   |   ;   |   ~  |
-// |  SQT  |  A  |  S  |  H   |  T   |  G   |                                       |  Y   |  N    |  E    |  O   |   I   | MINUS|
+// |  SQT  |  A  |  S  |  H   |  T   |  G   |                                       |  Y   |  N    |  E    |  O   |   I   |   -  |
 // |  CTRL |  Z  |  X  |  M   |  C   |  V   |  LSIDE  | ACC   |    | RET  |   RET   |  K   |  L    |  ,    |  .   |   /   |  ALT |
 //                     | GUI  | LMOD |LSIDE |  SHIFT  | BSPC  |    | SQT  |  SPACE  | RSIDE  | RMOD  | R-ALT |
 			bindings = <
