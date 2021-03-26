@@ -79,7 +79,7 @@
 	                                       &trans &trans &kp RET &trans    &kp BSPC   &trans  &trans  &trans &trans &trans
 			>;
 
-			sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp PG_UP PG_DN>;
+			sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp PG_UP PG_DN>;
 		};
 
 		left_mo_layer {
@@ -95,7 +95,7 @@
 	                                 &trans &trans &trans &trans  &trans        &kp BSPC &trans &trans         &trans         &trans
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
 		};
 
 		right_mod_mo_layer {
@@ -111,7 +111,7 @@
 	                                 &trans &trans &trans &trans    &kp BSPC     &trans  &trans  &trans         &trans     &trans
 			>;
 
-			sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp PG_UP PG_DN>;
+			sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp PG_UP PG_DN>;
 		};
 
 		left_mod_tog_layer {
@@ -127,7 +127,7 @@
 	                          &trans &trans &trans &trans &trans      &trans   &trans  &kp KP_N0 &kp KP_DOT &trans
 			>;
 
-			sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp PG_UP PG_DN>;
+			sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp PG_UP PG_DN>;
 		};
 
 		bluetooth_tog_layer {
