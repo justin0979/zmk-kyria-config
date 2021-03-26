@@ -47,7 +47,7 @@
               &kp C_PAUSE &tog LMOD &mo LSIDE  &kp LSHFT  &kp BSPC     &kp SQT  &kp SPACE &mo RSIDE &mo RMOD &kp RALT
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
+			sensor-bindings = <&inc_dec_kp KP_N2 KP_N8 &inc_dec_kp PG_UP PG_DN>;
 		};
 
 		qwerty_tog_layer {
@@ -79,7 +79,7 @@
 	                                       &trans &trans &kp RET &trans    &kp BSPC   &trans  &trans  &trans &trans &trans
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DN &inc_dec_kp PG_UP PG_DN>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
 		};
 
 		left_mo_layer {
