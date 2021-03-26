@@ -47,7 +47,7 @@
                 &kp LGUI &tog LMOD &mo LSIDE  &kp LSHFT  &kp BSPC     &kp SQT  &kp SPACE &mo RSIDE &mo RMOD &kp RALT
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 
 		qwerty_tog_layer {
