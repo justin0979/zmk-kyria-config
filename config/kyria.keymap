@@ -94,7 +94,7 @@
 	&kp ESC &trans &trans &kp LC(R) &kp LC(W)     &kp LC(B)                                        &kp LC(LS(N6)) &kp LC(F)      &trans    &kp LPAR   &kp RPAR      &kp BSLH
 	&kp TAB &trans &trans &trans &kp LC(LA(T)) &trans                                           &kp LC(Y)      &kp LC(LS(N))  &kp EQUAL &trans     &kp LC(LS(I)) &kp SQT
 	&trans  &trans &trans &trans &kp LC(C)     &kp LC(V)  &trans  &trans        &trans   &trans &trans         &trans         &trans    &trans     &trans        &kp RCTRL
-	                                 &trans &trans &trans &trans  &trans        &kp BSPC &trans &trans         &trans         &trans
+	                                 &trans &trans &trans &trans  &trans        &rgb_ug RGB_TOG &rgb_ug RGB_HUI &rgb_ug RGB_HUD         &trans         &trans
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
@@ -174,7 +174,7 @@
 	&trans   &to QWER &trans &trans &trans &to BT                                        &trans &trans &trans &trans &trans &trans
 	&trans   &trans   &trans &trans &trans &trans                                        &trans &trans &trans &trans &trans &trans
 	&trans   &trans   &trans &to MCR &trans &trans    &trans &trans       &trans  &trans &trans &trans &trans &trans &trans &trans
-	                             &trans &trans &trans &ext_power EP_ON &ext_power EP_OFF     &trans  &trans &trans &trans &trans
+	                             &trans &trans &trans &ext_power EP_ON &ext_power EP_OFF     &ext_power EP_ON  &ext_power EP_OFF &trans &trans &trans
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
