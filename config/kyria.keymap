@@ -173,7 +173,7 @@
 			bindings = <
 	&none   &to QWER &none &none   &none &to BT                                  &none  &none  &none  &none  &none  &none
 	&none   &none    &none &none   &none &none                                   &none  &none  &none  &none  &none  &none
-	&none   &none    &none &to MCR &none &none    &none &none       &none  &none &none  &none  &none  &none  &none  &none
+	&to DEF &none    &none &to MCR &none &none    &none &trans      &none  &none &none  &none  &none  &none  &none  &none
 	                             &none &none &none &ext_power EP_ON &ext_power EP_OFF     &ext_power EP_ON  &ext_power EP_OFF &none &none &none
 			>;
 
