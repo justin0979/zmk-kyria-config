@@ -171,10 +171,10 @@
 // |       |      |     | MCR  |      |      |     |     |                  |     |     |      |       |       |      |       |      |
 //                      |      |      |      |     |     |                  |     |     |      |       |       |
 			bindings = <
-	&none   &to QWER &none &none   &none &to BT                                  &none  &none  &none  &none  &none  &none
-	&none   &none    &none &none   &none &none                                   &none  &none  &none  &none  &none  &none
-	&to DEF &none    &none &to MCR &none &none    &none &trans      &none  &none &none  &none  &none  &none  &none  &none
-	                             &none &none &none &ext_power EP_ON &ext_power EP_OFF     &ext_power EP_ON  &ext_power EP_OFF &none &none &none
+	&none   &to QWER &none &none   &none &to BT                                                        &none  &none  &none  &none  &none  &none
+	&none   &none    &none &none   &none &none                                                         &none  &none  &none  &none  &none  &none
+	&to DEF &none    &none &to MCR &none &none     &none            &trans                &none  &none &none  &none  &none  &none  &none  &none
+	                             &none &none &none &ext_power EP_ON &ext_power EP_OFF     &none &none &none &none &none
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
