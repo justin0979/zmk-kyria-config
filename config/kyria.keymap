@@ -179,21 +179,5 @@
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
 		};
-
-		mod_layer {
-// ---------------------------------------------------------------------------------------------------------------------------------
-// |       |     |     |      |      |      |                                          |      |       |       |      |       |      |
-// |       |     |     |      |      |      |                                          |      |       |       |      |       |      |
-// |       |     |     |      |      |      |     |     |                  |     |     |      |       |       |      |       |      |
-//                     |      |      |      |     |     |                  |     |     |      |       |       |
-			bindings = <
-	&trans   &trans &trans &trans &trans &trans                                        &trans &trans &trans &trans &trans &trans
-	&trans   &trans &trans &trans &trans &trans                                        &trans &trans &trans &trans &trans &trans
-	&trans   &trans &trans &trans &trans &trans    &trans &trans       &trans  &trans  &trans &trans &trans &trans &trans &trans
-	                                 &trans &trans &trans &trans       &kp BSPC       &trans  &trans  &trans &trans &trans
-			>;
-
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-		};
 	};
 };
