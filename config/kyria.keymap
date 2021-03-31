@@ -86,15 +86,15 @@
 
 		left_mo_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------
-// |  ESC  |     |     | C(R) | C(W) | C(B) |                                          | CS(6) | LS(F) |       |  (   |   )   |   \  |
-// |  TAB  |     |     |      |CA(T) |      |                                          | LC(Y) | CS(N) |  =    |      | CS(I) |   '  |
-// | SHIFT |     |     |      | C(C) | C(V) |   |    |                 |     |         |       |       |  ,    |  .   |   /   | CTRL |
+// |       |     |     | C(R) | C(W) | C(B) |                                          | CS(6) | LS(F) |       |  (   |   )   |   \  |
+// |       |     |     |      |CA(T) |      |                                          | LC(Y) | CS(N) |  =    |      | CS(I) |   '  |
+// |       |     |     |      | C(C) | C(V) |   |    |                 |     |         |       |       |  ,    |  .   |   /   | CTRL |
 //                     |      |      |      |   |    |                 | BSPC|         |       |       |       |
 			bindings = <
-	&kp ESC &trans &trans &kp LC(R) &kp LC(W)  &kp LC(B)                                        &kp LC(LS(N6)) &kp LC(F)      &trans    &kp LPAR   &kp RPAR      &kp BSLH
-	&kp TAB &trans &trans &trans &kp LC(LA(T)) &trans                                           &kp LC(Y)      &kp LC(LS(N))  &kp EQUAL &trans     &kp LC(LS(I)) &kp SQT
-	&trans  &trans &trans &trans &kp LC(C)     &kp LC(V)  &trans  &trans        &trans   &trans &trans         &trans         &trans    &trans     &trans        &kp RCTRL
-	                                 &trans &trans &trans &trans  &trans        &trans   &trans &trans         &trans         &trans
+	&trans &trans &trans &kp LC(R) &kp LC(W)     &kp LC(B)                                        &kp LC(LS(N6)) &kp LC(F)      &trans    &kp LPAR   &kp RPAR      &kp BSLH
+	&trans &trans &trans &trans    &kp LC(LA(T)) &trans                                           &kp LC(Y)      &kp LC(LS(N))  &kp EQUAL &trans     &kp LC(LS(I)) &kp SQT
+	&trans &trans &trans &trans    &kp LC(C)     &kp LC(V)  &trans  &trans        &trans   &trans &trans         &trans         &trans    &trans     &trans        &kp RCTRL
+	                     &trans    &trans        &trans     &trans  &trans        &trans   &trans &trans         &trans         &trans
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
