@@ -39,14 +39,14 @@
 
 		colemak-dm_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------
-// | ESC  |  Q  |  W  |  F   |  P   |  B   |                                       |  J   |  L    |  U    |  Y   |   ;   |   ~  |
-// | CTRL |  A  |  R  |  S   |  T   |  G   |                                       |  M   |  N    |  E    |  I   |   O   |  ALT |
-// | HOME |  Z  |  X  |  C   |  D   |  V   |  LSIDE  | ACC   |    | CTRL |   RET   |  K   |  H    |  ,    |  .   |   /   |  END |
+// | ESC  |  Q  |  W  |  F   |  P   |  G   |                                       |  J   |  L    |  U    |  Y   |   ;   |   ~  |
+// | CTRL |  A  |  R  |  S   |  T   |  D   |                                       |  H   |  N    |  E    |  I   |   O   |  ALT |
+// | HOME |  Z  |  X  |  C   |  V   |  B   |  LSIDE  | ACC   |    | CTRL |   RET   |  K   |  M    |  ,    |  .   |   /   |  END |
 //                    | GUI  | LMOD |LSIDE |  SHIFT  | BSPC  |    | SQT  |  SPACE  | RSIDE  | RMOD  | R-ALT |
 			bindings = <
-	&kp ESC   &kp Q &kp W &kp F &kp P &kp B                                                 &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp TILDE
-	&kp LCTRL &kp A &kp R &kp S &kp T &kp G                                                 &kp M &kp N  &kp E     &kp I   &kp O    &kp RALT
-	&kp HOME  &kp Z &kp X &kp C &kp D &kp V     &mo LSIDE  &tog ACC     &kp RCTRL &kp RET   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH &kp END
+	&kp ESC   &kp Q &kp W &kp F &kp P &kp G                                                 &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp TILDE
+	&kp LCTRL &kp A &kp R &kp S &kp T &kp D                                                 &kp H &kp N  &kp E     &kp I   &kp O    &kp RALT
+	&kp HOME  &kp Z &kp X &kp C &kp V &kp B     &mo LSIDE  &tog ACC     &kp RCTRL &kp RET   &kp K &kp M  &kp COMMA &kp DOT &kp FSLH &kp END
               &kp C_MUTE &tog LMOD &mo LSIDE  &kp LSHFT  &kp BSPC     &kp SQT   &kp SPACE &mo RSIDE &mo RMOD &kp RALT
 			>;
 
